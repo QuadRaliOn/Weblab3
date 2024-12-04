@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.boxside  {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.space{
+    width: 50px;
+    background-color: #b5838d;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.box{
+    text-align: justify;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #b5838d;
+}
+
+.smallbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px ;
+    background-color: #e5989b;
+    padding: 5px 15px;
+}
+
+.box1 {
+    background-color: #e5989b;
+    flex: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    background-color: #ffb4a2;
+    min-height:25% ;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box3 {
+    background-color: #ffcdb2;
+    min-height:50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    background-color: #e5989b;
+    min-height:25% ;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 {
+    background-color: #ffb4a2;
+    flex:1;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
